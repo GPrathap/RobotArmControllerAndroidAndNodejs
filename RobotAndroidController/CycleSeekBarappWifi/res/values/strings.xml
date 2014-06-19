@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CycleSeekBarappwifi</string>
+    <string name="action_settings">Disconnected</string>
+    <string name="Calculating">Turn On</string>
+    <string name="Tarmitated">Turn Off</string>
+    <string name="TextView">Not connected</string>
+    <string name="TextView1">Not connected 1</string>
+    <string name="TextView2">Not connected 2</string>
+    <string name="TextView3">Not connected 3</string>
+    <string name="TextView4">Not connected 4</string>
+    <string name="TextView5">Not connected 5</string>
+    <string name="Text">Not connected</string>
+    <string name="getIPaddress">Please enter IP  address </string>
+    <string name="click">Control unit 1</string>
+	<string name="hello_world2">hello iiiiiiiiiiiiiiiiiiii</string>
+	<string name="hello_world">Touch on circle</string>
+    <color name="white">#FFFDFF</color>
+    <color name="colortext">#FFFDFF</color>
+    <string name="clicksecondone">Control unit 2</string>
+</resources>

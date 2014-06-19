@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+   >
+  
+    <view android:id="@+id/servos1" 
+   android:layout_marginTop="20dp"
+   android:layout_height="350dip" 
+   android:layout_width="210dip" 
+   android:background="@color/white"
+   class="com.example.cycleseekbarappwifi.Cyclebar"/>
+<TextView
+    android:text="@string/hello_world"
+    android:layout_width="210dip"
+    android:paddingTop="400dip"
+    android:paddingLeft="-210dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="-210dp"
+    android:gravity="center"
+     android:id="@+id/servo1"
+    />
+<view android:id="@+id/servos2" 
+    
+    android:layout_marginTop="20dp"
+   
+    android:layout_height="350dip" 
+    android:layout_width="210dip" 
+    android:background="@color/white"
+    
+    class="com.example.cycleseekbarappwifi.Cyclebar"/>
+  <TextView
+    android:text="@string/hello_world"
+    android:layout_width="210dip"
+    android:paddingTop="400dip"
+    android:paddingLeft="-210dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="-210dp"
+    android:gravity="center"
+     android:id="@+id/servo2"
+    /> 
+   
+<view android:id="@+id/servos3"  
+   
+    android:layout_marginTop="20dp"
+    
+    android:layout_height="350dip" 
+    android:layout_width="210dip" 
+    android:background="@color/white"
+    
+    class="com.example.cycleseekbarappwifi.Cyclebar"/>
+<TextView
+    android:text="@string/hello_world"
+    android:layout_width="210dip"
+    android:paddingTop="400dip"
+    android:paddingLeft="-210dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="-210dp"
+    android:gravity="center"
+     android:id="@+id/servo3"
+    />
+<TextView
+    android:text="@string/action_settings"
+    android:layout_width="210dip"
+    android:paddingLeft="-210dp"
+    android:layout_marginTop="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-210dp"
+    android:gravity="center"
+     android:id="@+id/servo31"
+    />
+<view android:id="@+id/servos4"  
+    
+    android:layout_marginTop="20dp"
+   
+     android:layout_height="350dip" 
+    android:layout_width="210dip" 
+    android:background="@color/white"
+    
+    class="com.example.cycleseekbarappwifi.Cyclebar"/>
+<TextView
+    android:text="@string/hello_world"
+    android:layout_width="210dip"
+    android:paddingTop="400dip"
+    android:paddingLeft="-210dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="-210dp"
+    android:gravity="center"
+     android:id="@+id/servo4"
+    
+    />
+<view android:id="@+id/servos5" 
+   
+    android:layout_marginTop="20dp"
+    
+    android:layout_height="350dip" 
+    android:layout_width="210dip" 
+    android:background="@color/white"
+    
+    class="com.example.cycleseekbarappwifi.Cyclebar"/>
+<TextView
+    android:text="@string/hello_world"
+    android:layout_width="210dip"
+    android:paddingTop="400dip"
+    android:paddingLeft="-210dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="-210dp"
+    android:gravity="center"
+    android:id="@+id/servo5"
+    />
+
+
+
+</LinearLayout>

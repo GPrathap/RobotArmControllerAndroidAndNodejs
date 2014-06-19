@@ -1,0 +1,14 @@
+{
+	"name":"RobotArmController",
+	"version":"0.1.0",
+	"description": "3d object control by android app using wifi",
+	 "author": "GPrathap",
+	"dependencies":{
+		"request":"*",
+		"path":"0.4.x",
+		"socket.io":"1.0.x",
+		"net":"1.0.x",
+		"http":"~0.0.x"
+		
+	}
+}

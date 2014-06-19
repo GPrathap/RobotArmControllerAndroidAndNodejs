@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<script src="/socket.io/socket.io.js"></script>
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #F5F5F5;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#container {
+				height: 492px;
+				width: 876px;
+			}
+		</style>
+		<script src="jquery-1.8.3.min.js"></script>
+		<script src="three.min.js"></script>
+		
+		<script src="Coordinates.js"></script>
+		<script src="OrbitAndPanControls.js"></script>
+		
+		<script src="dat.gui.min.js"></script>
+		
+		
+	</head>
+	<body>
+		<input id="msg"><button id="send">Send</button>
+		<div id="output"></div>
+		
+		<div id="canvasOne">
+		</div>
+		<script src="robot_arm.js"> </script>
+	</body>
+</html>

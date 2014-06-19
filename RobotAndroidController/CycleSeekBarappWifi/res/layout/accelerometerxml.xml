@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/connectedacc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="1dp"
+        android:text="@string/Text" />
+
+     <SeekBar
+        android:paddingTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="120"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:id="@+id/slider0"
+        android:progressDrawable="@xml/progress_drawable"
+        android:thumb="@xml/thumb_drable"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:id="@+id/parent0"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:checked="false"
+        android:textOn="@string/Calculating"
+         android:textOff="@string/Tarmitated"
+        android:layout_marginLeft="240dp"
+        android:onClick="toggleButtonClick"
+        android:text="@string/hello_world" />
+
+     <SeekBar
+        android:paddingTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="120"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:id="@+id/slider1"
+        android:progressDrawable="@xml/progress_drawable"
+        android:thumb="@xml/thumb_drable"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:id="@+id/parent1"
+        />
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+         android:onClick="toggleButtonClick"
+         android:checked="false"
+        android:textOn="@string/Calculating"
+         android:textOff="@string/Tarmitated"
+        android:layout_marginLeft="240dp"
+        android:text="@string/hello_world" />
+     <SeekBar
+        android:paddingTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="120"
+       
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:id="@+id/slider2"
+        android:progressDrawable="@xml/progress_drawable"
+        android:thumb="@xml/thumb_drable"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:id="@+id/parent2"
+        />
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+         android:onClick="toggleButtonClick"
+         android:checked="false"
+        android:textOn="@string/Calculating"
+         android:textOff="@string/Tarmitated"
+        android:layout_marginLeft="240dp"
+        android:text="@string/hello_world" />
+     <SeekBar
+        android:paddingTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="120"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:id="@+id/slider3"
+        android:progressDrawable="@xml/progress_drawable"
+        android:thumb="@xml/thumb_drable"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:id="@+id/parent3"
+        />
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textOn="@string/Calculating"
+         android:textOff="@string/Tarmitated"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="240dp"
+         android:onClick="toggleButtonClick"
+        android:text="@string/hello_world" />
+     <SeekBar
+        android:paddingTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="120"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:id="@+id/slider4"
+        android:progressDrawable="@xml/progress_drawable"
+        android:thumb="@xml/thumb_drable"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:id="@+id/parent4"
+        />
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toggleButtonClick"
+        android:checked="false"
+        android:textOn="@string/Calculating"
+         android:textOff="@string/Tarmitated"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="240dp"
+        android:text="@string/hello_world" />
+    
+    
+    
+
+</LinearLayout>
