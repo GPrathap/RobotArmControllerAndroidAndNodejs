@@ -52,11 +52,17 @@ public class Option2 extends Activity implements SensorEventListener,OnSeekBarCh
 	SeekBar seekbar1,seekbar2,seekbar3,seekbar4,seekbar5;
 	private int [] data =new int[5];
 	boolean state1=false,state2=false,state3=false,state4=false,state5=false;
-	
+	 Bundle extras;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.accelerometerxml);
+		extras = getIntent().getExtras();
+		if (extras != null) {
+			IPAddress = extras.getString("IPAddress");
+			
+		}
+		
 		new Thread(new ClientThread()).start();
 		 msensormanager = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
 		 maccelerometer = msensormanager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -321,7 +327,7 @@ public class Option2 extends Activity implements SensorEventListener,OnSeekBarCh
 		public void run() {
 			
 			try {
-				InetAddress serverAddr = InetAddress.getByName(SERVER_IP);
+				InetAddress serverAddr = InetAddress.getByName(getIPAddress());
 
 				socket = new Socket(serverAddr, SERVERPORT);
 
