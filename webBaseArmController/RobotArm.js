@@ -95,15 +95,7 @@ function callback_server_connection(socket){
 
 
 console.log("node.js net server is waiting:");
-for (var interface in networkInterfaces) {
 
-    networkInterfaces[interface].forEach(function(details){
-        
-        if ((details.family=='IPv4') && !details.internal) {
-            console.log(interface, details.address);  
-        }
-    });
-}
 
 console.log("port: ", port);
 
