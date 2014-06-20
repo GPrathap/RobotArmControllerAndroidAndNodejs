@@ -1,4 +1,5 @@
 package com.example.cycleseekbarappwifi;
+package com.example.cycleseekbarappwifi;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -30,7 +31,7 @@ public class Option1 extends Activity{
     EditText getIpAddress;
     int[] databuffer;
     public String IPAddress;
-    
+    Bundle extras;
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
@@ -38,10 +39,14 @@ public class Option1 extends Activity{
 		mfileoutputsream="data";
 		databuffer=new int[6];
 		databuffer[0]=TARGET_PIN;
+		extras = getIntent().getExtras();
+		if (extras != null) {
+			IPAddress = extras.getString("IPAddress");
+			
+		}
 		
 		new Thread(new ClientThread()).start();
 		
-	
 		connectedstate = (TextView)findViewById(R.id.servo31);
 		connectedstate.setText(setConnectionStatus(true));
 		
@@ -189,7 +194,7 @@ public class Option1 extends Activity{
         super.onDestroy();
       
     }
-	public String getIPAddress() {
+	public  String getIPAddress() {
 		return IPAddress;
 	}
 	public void setIPAddress(String iPAddress) {
@@ -201,7 +206,7 @@ public class Option1 extends Activity{
 		public void run() {
 			
 			try {
-				InetAddress serverAddr = InetAddress.getByName(SERVER_IP);
+				InetAddress serverAddr = InetAddress.getByName(getIPAddress());
 
 				socket = new Socket(serverAddr, SERVERPORT);
 
