@@ -39,7 +39,8 @@ public class MainActivity extends Activity {
 	}
 	public void onClick(View view){
 		setIPAddress();
-		Intent intent =new Intent();
+		Intent intent =new Intent(MainActivity.this,Option1.class);
+		intent.putExtra(IPAddress,getIPAddress());
 		String packgeName="com.example.cycleseekbarappwifi";
 		String className="com.example.cycleseekbarappwifi.Option1";
 		intent.setClassName(packgeName,className);
@@ -48,7 +49,8 @@ public class MainActivity extends Activity {
 	}
 	
 	public void onClickAccelerometer(View view){
-		Intent intent = new Intent();
+		Intent intent = new Intent(MainActivity.this,Option1.class);
+		intent.putExtra("IPAddress",getIPAddress());
 		String packageName = "com.example.cycleseekbarappwifi";
 		String className="com.example.cycleseekbarappwifi.Option2";
 		intent.setClassName(packageName, className);
